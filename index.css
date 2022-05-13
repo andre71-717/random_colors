@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./4406fd123fe08c1047a8becf5b1c8c08.jpg);
+    overflow: hidden;
+}
+
+.myButtons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.myButtons :first-child{
+    font-size: 30px;
+    background-color: rgb(18, 21, 222);
+    color: white;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.myButtons :last-child{
+    font-size: 30px;
+    background-color: rgb(243, 35, 8);
+    color: white;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.myButtons :first-child:hover{
+    background-color: rgb(65, 66, 166);
+}
+
+
+.myButtons :last-child:hover{
+    background-color: rgb(187, 73, 58);
+
+}
+
+.myDivResult{
+    transform: translateY(-40%);
+    background-color: rgb(182, 17, 17);
+    margin: auto;
+    width: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+    height: 50px;
+    margin-left: 15px;
+    
+}
+
+.placeToFillDivs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    
+}
